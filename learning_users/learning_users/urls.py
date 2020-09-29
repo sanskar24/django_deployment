@@ -23,6 +23,9 @@ urlpatterns = [
     path('',include('basic_app.urls')),
     path('logout/',views.user_logout,name='logout'),
     path('special/',views.special,name='special'),
+<<<<<<< HEAD
     path('calculator/',views.calculator,name='calculator'),
+=======
+>>>>>>> 52e247715b047ea22cd0db35a155a2c5191b49cd
 
 ]
