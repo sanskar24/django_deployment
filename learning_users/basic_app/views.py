@@ -19,12 +19,9 @@ def user_logout(request):
     logout(request)
     return HttpResponseRedirect(reverse('index'))
 
-<<<<<<< HEAD
 def calculator(request):
     return render(request,'basic_app/calculator.html')
-=======
 
->>>>>>> 52e247715b047ea22cd0db35a155a2c5191b49cd
 
 def register(request):
 

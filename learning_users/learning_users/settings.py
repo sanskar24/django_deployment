@@ -26,11 +26,8 @@ SECRET_KEY = '7lh1yd6wbhgfjjkfucwaw%c32_u2ab!6!su&f9+l+$90c&yepd'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-<<<<<<< HEAD
-ALLOWED_HOSTS = []
-=======
-ALLOWED_HOSTS = ['sanskar24.pythonanywhere.com']
->>>>>>> 52e247715b047ea22cd0db35a155a2c5191b49cd
+
+ALLOWED_HOSTS = ['sanskar24.pythonanywhere.com','127.0.0.1']
 
 
 # Application definition
